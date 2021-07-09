@@ -1,0 +1,54 @@
+{
+	"pages": [
+		{
+			"path": "pages/tabBar/component",
+			"style": {
+				"navigationBarTitleText": "组件"
+			}
+		},
+		{
+			"path": "pages/tabBar/extend",
+			"style": {
+				"navigationBarTitleText": "扩展"
+			}
+		},
+		{
+			"path": "pages/tabBar/template",
+			"style": {
+				"navigationBarTitleText": "模板"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/tabBar/component",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "组件"
+			},
+			{
+				"pagePath": "pages/tabBar/extend",
+				"iconPath": "static/extui.png",
+				"selectedIconPath": "static/extuiHL.png",
+				"text": "扩展"
+			},
+			{
+				"pagePath": "pages/tabBar/template",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "模板"
+			}
+		]
+	}
+}
