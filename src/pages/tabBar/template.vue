@@ -1,37 +1,32 @@
 <template>
-	<view class="content">
-		<view>
-			<text class="title">{{title}}</text>
-		</view>
-	</view>
+  <view class="content">
+    <navigator class="content--item" url="/pages/template/chart">
+      <button type="default">AntV F2</button>
+    </navigator>
+  </view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: '模板'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
-		}
-	}
+export default {
+  data() {
+    return {};
+  },
+  onLoad() {},
+  methods: {},
+};
 </script>
 
 <style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx;
+}
 
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
+.content--item {
+  width: 100%;
+  padding: 20rpx;
+}
 </style>
