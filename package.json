@@ -42,7 +42,6 @@
     "test:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin jest -i"
   },
   "dependencies": {
-    "@antv/f2": "^3.8.9",
     "@dcloudio/uni-app-plus": "^2.0.0-31920210609001",
     "@dcloudio/uni-h5": "^2.0.0-31920210609001",
     "@dcloudio/uni-helper-json": "*",
