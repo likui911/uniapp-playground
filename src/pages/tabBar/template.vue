@@ -1,7 +1,10 @@
 <template>
   <view class="content">
-    <navigator class="content--item" url="/pages/template/chart">
+    <navigator class="content--item" url="/pages/template/f2-chart">
       <button type="default">AntV F2</button>
+    </navigator>
+      <navigator class="content--item" url="/pages/template/ucharts">
+      <button type="default">uCharts</button>
     </navigator>
   </view>
 </template>

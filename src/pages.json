@@ -30,9 +30,16 @@
 			"root": "pages/template",
 			"pages": [
 				{
-					"path": "chart",
+					"path": "f2-chart",
 					"style": {
-						"navigationBarTitleText": "报表",
+						"navigationBarTitleText": "F2报表",
+						"navigationStyle": "default"
+					}
+				},
+				{
+					"path": "ucharts",
+					"style": {
+						"navigationBarTitleText": "uCharts报表",
 						"navigationStyle": "default"
 					}
 				}
