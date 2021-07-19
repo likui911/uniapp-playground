@@ -3,8 +3,11 @@
     <navigator class="content--item" url="/pages/template/f2-chart">
       <button type="default">AntV F2</button>
     </navigator>
-      <navigator class="content--item" url="/pages/template/ucharts">
+    <navigator class="content--item" url="/pages/template/ucharts">
       <button type="default">uCharts</button>
+    </navigator>
+    <navigator class="content--item" url="/pages/template/sub-select">
+      <button type="default">subSelect</button>
     </navigator>
   </view>
 </template>
