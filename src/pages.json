@@ -50,6 +50,13 @@
 						"navigationBarTitleText": "多级弹出菜单",
 						"navigationStyle": "default"
 					}
+				},
+				{
+					"path": "float-button",
+					"style": {
+						"navigationBarTitleText": "浮动按钮",
+						"navigationStyle": "default"
+					}
 				}
 			]
 		}

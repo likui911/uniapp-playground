@@ -9,6 +9,9 @@
     <navigator class="content--item" url="/pages/template/sub-select">
       <button type="default">subSelect</button>
     </navigator>
+     <navigator class="content--item" url="/pages/template/float-button">
+      <button type="default">floatButton</button>
+    </navigator>
   </view>
 </template>
 
